@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button{
+    width: 80px;
+}
+
+select{
+    width: 150px;
+}
+
+.cont-square {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% / 10) - 5px);
+    height: 50px;
+    margin: 1px;
+}
+
+.colorcells {
+    background-color: #7FFFD4;
+}
+
